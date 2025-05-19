@@ -89,7 +89,7 @@ body {
   color: #D1D5DB;
   font-size: calc(1.8rem * var(--scale-factor));
   font-weight: 400;
-  margin-bottom: calc(0.9rem * var(--scale-factor));
+  margin-bottom: calc(0.80rem * var(--scale-factor));
 }
 
 .future-text {
@@ -167,7 +167,7 @@ body {
   justify-content: center;
   text-align: center;
   text-decoration: none;
-  margin-top: calc(1.8rem * var(--scale-factor));
+  margin-top: calc(1.0rem * var(--scale-factor));
 }
 
 .image-content {
@@ -497,7 +497,7 @@ body {
 }
 
 .instruction-text p:nth-last-child(2) {
-  margin-bottom: calc(5.5rem * var(--scale-factor));
+  margin-bottom: calc(4.5rem * var(--scale-factor));
 }
 
 /* Connect Wallet & Disconnect Wallet buttons */
@@ -1356,7 +1356,7 @@ button {
 
 /* ============ HIGH-RESOLUTION ENHANCEMENTS ============ */
 @media (min-width: 1920px) {
-  .middle-box-content { padding: calc(3rem * var(--scale-factor)); }
+  .middle-box-content { padding: calc(1.85rem * var(--scale-factor)); }
   .balance-value { font-size: calc(1.3rem * var(--scale-factor)); }
   .left-box { width: clamp(14rem, 18vw, 20rem); } /* Example: Wider nav */
 }
